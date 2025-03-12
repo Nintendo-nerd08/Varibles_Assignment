@@ -1,0 +1,14 @@
+:root { /* can be access down in body*/
+    --bg-color-light: white; /* these are our variables*/
+    --text-color: black;
+}
+
+.dark-mode{
+    --bg: black;  /* these are our variables*/
+    --text: white;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
